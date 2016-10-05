@@ -86,13 +86,15 @@ def get_events():
         return(start, event['summary'])
 
 def create_calender_event():
-
+    
 
 def check_input(input_text):
     for x in range 5:
-        if input_text != #sufhuifnsldf
+
 
 def main():
     input_text
-    while input_text != 'sleep':
+    while 'go to sleep' not in input_text:
         input_text=get_input(ear)
+        output = check_input(input_text)
+        mouth.speak(output)
